@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="bookDao" class="com.d5error.dao.impl.BookDaoImpl"/>
+
+    <bean id="bookService" class="com.d5error.service.impl.BookServiceImpl">
+<!--        配置service与dao的关系-->
+<!--        name：将new变成setXXX时的XXX-->
+<!--        ref：在IoC容器中的id名称-->
+        <property name="bookDao" ref="bookDao"/>
+    </bean>
+
+</beans>
