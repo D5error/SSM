@@ -5,19 +5,21 @@ import com.d5error.dao.UserDao;
 import com.d5error.service.BookService;
 
 public class BookServiceImpl implements BookService {
-//    不使用new，而是通过set方法
     private BookDao bookDao;
     private UserDao userDao;
 
-    public void setUserDao(UserDao userDao) {
+//    public void setBookDao(BookDao bookDao) {
+//        this.bookDao = bookDao;
+//    }
+
+    public BookServiceImpl(BookDao bookDao, UserDao userDao){
+        this.bookDao = bookDao;
         this.userDao = userDao;
     }
 
-    public void setBookDao(BookDao bookDao) {
-        this.bookDao = bookDao;
-    }
 
-    public void save(){
+    @Override
+    public void save() {
         System.out.println("book service save ...");
         bookDao.save();
         userDao.save();
