@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.D5error</groupId>
-	<artifactId>Bean_base_config</artifactId>
+	<artifactId>Bean_instance</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Bean_base_config</name>
-	<description>Bean_base_config</description>
+	<name>Bean_instance</name>
+	<description>Bean_instance</description>
 	<url/>
 	<licenses>
 		<license/>
