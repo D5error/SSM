@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/01Spring/IoC_introductory_case/pom.xml" />
+        <option value="$PROJECT_DIR$/01Spring/DI_introductory_case/pom.xml" />
+        <option value="$PROJECT_DIR$/01Spring/Bean_instance/pom.xml" />
+        <option value="$PROJECT_DIR$/01Spring/Bean_base_config/pom.xml" />
+        <option value="$PROJECT_DIR$/01Spring/Bean_lifecycle/pom.xml" />
+        <option value="$PROJECT_DIR$/01Spring/DI_set/pom.xml" />
+        <option value="$PROJECT_DIR$/01Spring/DI_constructor/pom.xml" />
+        <option value="$PROJECT_DIR$/01Spring/DI_autoware/pom.xml" />
+        <option value="$PROJECT_DIR$/01Spring/DI_collection/pom.xml" />
+        <option value="$PROJECT_DIR$/01Spring/datasource/pom.xml" />
+        <option value="$PROJECT_DIR$/01Spring/container/pom.xml" />
+        <option value="$PROJECT_DIR$/01Spring/annotation_bean/pom.xml" />
+        <option value="$PROJECT_DIR$/01Spring/annotation_bean_manager/pom.xml" />
+        <option value="$PROJECT_DIR$/annotation_di/pom.xml" />
+        <option value="$PROJECT_DIR$/01Spring/annotation_di/pom.xml" />
+        <option value="$PROJECT_DIR$/01Spring/annotation_third_bean_manager/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/annotation_di/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
