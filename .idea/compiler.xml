@@ -21,6 +21,7 @@
         <module name="Bean_lifecycle" />
         <module name="datasource" />
         <module name="IoC_introductory_case" />
+        <module name="spring_mybatis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -45,6 +46,7 @@
       <module name="annotation_third_bean_manager" options="-parameters" />
       <module name="container" options="-parameters" />
       <module name="datasource" options="-parameters" />
+      <module name="spring_mybatis" options="-parameters" />
     </option>
   </component>
 </project>
