@@ -15,6 +15,7 @@
         <module name="annotation_bean" />
         <module name="annotation_di" />
         <module name="DI_collection" />
+        <module name="spring_junit" />
         <module name="Bean_base_config" />
         <module name="DI_set" />
         <module name="Bean_instance" />
@@ -46,6 +47,7 @@
       <module name="annotation_third_bean_manager" options="-parameters" />
       <module name="container" options="-parameters" />
       <module name="datasource" options="-parameters" />
+      <module name="spring_junit" options="-parameters" />
       <module name="spring_mybatis" options="-parameters" />
     </option>
   </component>
