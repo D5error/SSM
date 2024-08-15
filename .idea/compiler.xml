@@ -14,12 +14,14 @@
         <module name="annotation_third_bean_manager" />
         <module name="annotation_bean" />
         <module name="annotation_di" />
+        <module name="aop_demo" />
         <module name="DI_collection" />
         <module name="spring_junit" />
         <module name="Bean_base_config" />
         <module name="DI_set" />
         <module name="Bean_instance" />
         <module name="Bean_lifecycle" />
+        <module name="aop_quickstart" />
         <module name="datasource" />
         <module name="IoC_introductory_case" />
         <module name="spring_mybatis" />
@@ -45,6 +47,8 @@
       <module name="annotation_bean_manager" options="-parameters" />
       <module name="annotation_di" options="-parameters" />
       <module name="annotation_third_bean_manager" options="-parameters" />
+      <module name="aop_demo" options="-parameters" />
+      <module name="aop_quickstart" options="-parameters" />
       <module name="container" options="-parameters" />
       <module name="datasource" options="-parameters" />
       <module name="spring_junit" options="-parameters" />

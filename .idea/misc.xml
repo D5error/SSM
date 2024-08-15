@@ -22,6 +22,8 @@
         <option value="$PROJECT_DIR$/01Spring/annotation_third_bean_manager/pom.xml" />
         <option value="$PROJECT_DIR$/01Spring/spring_mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/01Spring/spring_junit/pom.xml" />
+        <option value="$PROJECT_DIR$/01Spring/aop_demo/pom.xml" />
+        <option value="$PROJECT_DIR$/01Spring/aop_quickstart/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
