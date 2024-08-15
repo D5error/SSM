@@ -29,6 +29,7 @@
 
 <!--    使用context空间加载properties文件-->
     <context:property-placeholder location="jdbc.properties"/>
+<!--    <context:property-placeholder location="classpath:*.properties"/>-->
 
     <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
         <property name="driverClassName" value="${jdbc.driver}"/>

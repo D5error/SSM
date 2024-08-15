@@ -13,6 +13,7 @@
         <module name="DI_constructor" />
         <module name="annotation_third_bean_manager" />
         <module name="annotation_bean" />
+        <module name="case_interface_run_speed" />
         <module name="annotation_di" />
         <module name="aop_demo" />
         <module name="DI_collection" />
@@ -51,6 +52,7 @@
       <module name="aop_advice_type" options="-parameters" />
       <module name="aop_demo" options="-parameters" />
       <module name="aop_quickstart" options="-parameters" />
+      <module name="case_interface_run_speed" options="-parameters" />
       <module name="container" options="-parameters" />
       <module name="datasource" options="-parameters" />
       <module name="spring_junit" options="-parameters" />
