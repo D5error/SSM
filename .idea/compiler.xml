@@ -10,6 +10,7 @@
         <module name="container" />
         <module name="DI_introductory_case" />
         <module name="annotation_bean_manager" />
+        <module name="aop_advice_data" />
         <module name="DI_constructor" />
         <module name="annotation_third_bean_manager" />
         <module name="annotation_bean" />
@@ -49,6 +50,7 @@
       <module name="annotation_bean_manager" options="-parameters" />
       <module name="annotation_di" options="-parameters" />
       <module name="annotation_third_bean_manager" options="-parameters" />
+      <module name="aop_advice_data" options="-parameters" />
       <module name="aop_advice_type" options="-parameters" />
       <module name="aop_demo" options="-parameters" />
       <module name="aop_quickstart" options="-parameters" />
