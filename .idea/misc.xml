@@ -24,6 +24,7 @@
         <option value="$PROJECT_DIR$/01Spring/spring_junit/pom.xml" />
         <option value="$PROJECT_DIR$/01Spring/aop_demo/pom.xml" />
         <option value="$PROJECT_DIR$/01Spring/aop_quickstart/pom.xml" />
+        <option value="$PROJECT_DIR$/01Spring/aop_advice_type/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

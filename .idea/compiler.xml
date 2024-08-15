@@ -25,6 +25,7 @@
         <module name="datasource" />
         <module name="IoC_introductory_case" />
         <module name="spring_mybatis" />
+        <module name="aop_advice_type" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -47,6 +48,7 @@
       <module name="annotation_bean_manager" options="-parameters" />
       <module name="annotation_di" options="-parameters" />
       <module name="annotation_third_bean_manager" options="-parameters" />
+      <module name="aop_advice_type" options="-parameters" />
       <module name="aop_demo" options="-parameters" />
       <module name="aop_quickstart" options="-parameters" />
       <module name="container" options="-parameters" />
