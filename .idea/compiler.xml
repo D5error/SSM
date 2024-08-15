@@ -25,6 +25,7 @@
         <module name="Bean_lifecycle" />
         <module name="aop_quickstart" />
         <module name="datasource" />
+        <module name="case_handle_password" />
         <module name="IoC_introductory_case" />
         <module name="spring_mybatis" />
         <module name="aop_advice_type" />
@@ -54,6 +55,7 @@
       <module name="aop_advice_type" options="-parameters" />
       <module name="aop_demo" options="-parameters" />
       <module name="aop_quickstart" options="-parameters" />
+      <module name="case_handle_password" options="-parameters" />
       <module name="case_interface_run_speed" options="-parameters" />
       <module name="container" options="-parameters" />
       <module name="datasource" options="-parameters" />
