@@ -1,20 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="73ded8c5-5a73-4395-aa36-ff0879e3c7b6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" />
+    <list default="true" id="73ded8c5-5a73-4395-aa36-ff0879e3c7b6" name="Changes" comment="jdbc入门">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/JDBC/JDBCIntroductory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/JDBC/SQLInjection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb基础/jdbc_db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/jdbc_db.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/JDBC/JDBCDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/JDBC/JDBCDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SSM+SpringBoot_learning/JDBCDemo.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "history": [
+    {
+      "assignee": "D5error"
+    }
+  ],
   "lastFilter": {
-    "state": "OPEN",
     "assignee": "D5error"
   }
 }]]></component>
@@ -28,6 +49,9 @@
   "associatedIndex": 5
 }]]></component>
   <component name="ProjectId" id="2mapM56jDYsln4Z7e9iMESXXcHJ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,7 +59,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.JDBCDemo.executor": "Run",
+    "Application.JDBCIntroductory.executor": "Run",
+    "Application.JDBIntroductory.executor": "Run",
+    "Application.SQLInjection.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/repository/SSM+SpringBoot_learning",
@@ -44,9 +72,32 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.SQLInjection">
+    <configuration name="JDBCIntroductory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JDBCIntroductory" />
+      <module name="SSM+SpringBoot_learning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SQLInjection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SQLInjection" />
+      <module name="SSM+SpringBoot_learning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SQLInjection" />
+        <item itemvalue="Application.JDBCIntroductory" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -63,11 +114,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727324490015</updated>
-      <workItem from="1727324491104" duration="336000" />
+      <workItem from="1727324491104" duration="6654000" />
     </task>
+    <task id="LOCAL-00001" summary="jdbc入门">
+      <option name="closed" value="true" />
+      <created>1727325143360</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727325143360</updated>
+    </task>
+    <task id="LOCAL-00002" summary="jdbc入门">
+      <option name="closed" value="true" />
+      <created>1727325150324</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727325150324</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="jdbc入门" />
+    <option name="LAST_COMMIT_MESSAGE" value="jdbc入门" />
   </component>
 </project>
