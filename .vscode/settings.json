@@ -1,0 +1,15 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "cSpell.words": [
+        "jdbc"
+    ],
+    "java.project.sourcePaths": [
+        "JavaWeb基础/JDBC",
+        "JavaWeb基础/lib"
+    ],
+    "java.dependency.syncWithFolderExplorer": false,
+    "java.project.explorer.showNonJavaResources": false,
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ]
+}
