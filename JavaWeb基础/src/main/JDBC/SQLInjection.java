@@ -1,3 +1,5 @@
+package main.JDBC;
+
 import java.sql.*;
 
 public class SQLInjection {
