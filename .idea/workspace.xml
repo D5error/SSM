@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="ALL" />
+    <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73ded8c5-5a73-4395-aa36-ff0879e3c7b6" name="Changes" comment="增删改查练习">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/maven/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/maven/src/main/java/com/d5error/HelloWorld.java" afterDir="false" />
+    <list default="true" id="73ded8c5-5a73-4395-aa36-ff0879e3c7b6" name="Changes" comment="Mybatis入门">
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/java/com/d5error/MybatisDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/java/com/d5error/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/resources/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/resources/mybatis.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_4_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb基础/JavaWeb基础.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/JavaWeb基础.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/main/maven/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/maven/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM+SpringBoot_learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SSM+SpringBoot_learning.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +81,7 @@
     "Application.JDBCDemo.executor": "Run",
     "Application.JDBCIntroductory.executor": "Run",
     "Application.JDBIntroductory.executor": "Run",
+    "Application.MybatisDemo.executor": "Run",
     "Application.SQLInjection.executor": "Run",
     "Application.main.JDBC.DruidDatabaseConnectionPool.executor": "Run",
     "Downloaded.Files.Path.Enabled": "true",
@@ -83,6 +91,8 @@
     "JUnit.BrandTest.testUpdate.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Maven.maven [clean].executor": "Run",
+    "Maven.mybatis [clean].executor": "Run",
+    "Maven.mybatis [compile].executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -91,7 +101,7 @@
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/repository/SSM+SpringBoot_learning/JavaWeb基础/src/main",
+    "last_opened_file_path": "E:/repository/SSM+SpringBoot_learning/JavaWeb基础/src/main/Mybatis",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -100,8 +110,8 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.36136663",
-    "settings.build.tools.auto.reload": "ALL",
-    "settings.editor.selected.configurable": "build.tools",
+    "settings.build.tools.auto.reload": "SELECTIVE",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -112,17 +122,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\repository\SSM+SpringBoot_learning\JavaWeb基础\src\main\Mybatis\src\main\java\com\d5error\pojo" />
       <recent name="E:\repository\SSM+SpringBoot_learning\JavaWeb基础\src\main\Maven\" />
       <recent name="E:\repository\SSM+SpringBoot_learning\JavaWeb基础\src\main\JDBC" />
       <recent name="E:\repository\SSM+SpringBoot_learning" />
       <recent name="E:\repository\SSM+SpringBoot_learning\JavaWeb基础\src\main\JDBC\resource" />
-      <recent name="E:\repository\SSM+SpringBoot_learning\JavaWeb基础\src\main" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="main.Maven.src.main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HelloWorld">
+  <component name="RunManager" selected="Application.MybatisDemo">
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.d5error.HelloWorld" />
       <module name="maven" />
@@ -136,18 +146,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BrandTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaWeb基础" />
+    <configuration name="MybatisDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.d5error.MybatisDemo" />
+      <module name="mybatis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.JDBC.JDBCPractice1.*" />
+          <option name="PATTERN" value="com.d5error.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="main.JDBC.JDBCPractice1" />
-      <option name="MAIN_CLASS_NAME" value="main.JDBC.JDBCPractice1.BrandTest" />
-      <option name="METHOD_NAME" value="testAdd" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -202,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MybatisDemo" />
         <item itemvalue="Application.HelloWorld" />
         <item itemvalue="JUnit.BrandTest.testSelectAll" />
         <item itemvalue="JUnit.BrandTest.testDelete" />
         <item itemvalue="JUnit.BrandTest.testUpdate" />
-        <item itemvalue="JUnit.BrandTest.testAdd" />
       </list>
     </recent_temporary>
   </component>
@@ -235,6 +242,13 @@
       <workItem from="1727520573943" duration="7957000" />
       <workItem from="1727542657633" duration="407000" />
       <workItem from="1727601246308" duration="742000" />
+      <workItem from="1727607502971" duration="3682000" />
+      <workItem from="1727619250676" duration="1469000" />
+      <workItem from="1727620740077" duration="754000" />
+      <workItem from="1727621506524" duration="280000" />
+      <workItem from="1727621798798" duration="48000" />
+      <workItem from="1727621857442" duration="519000" />
+      <workItem from="1727622388889" duration="1377000" />
     </task>
     <task id="LOCAL-00001" summary="jdbc入门">
       <option name="closed" value="true" />
@@ -276,7 +290,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727538141312</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Maven">
+      <option name="closed" value="true" />
+      <created>1727607536025</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727607536025</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,7 +321,8 @@
     <MESSAGE value="SQL注入" />
     <MESSAGE value="Druid数据库连接池" />
     <MESSAGE value="增删改查练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="增删改查练习" />
+    <MESSAGE value="Maven" />
+    <option name="LAST_COMMIT_MESSAGE" value="Maven" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -309,10 +332,14 @@
           <line>70</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/JavaWeb基础/src/main/JDBC/JDBCPractice1/BrandTest.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="4" />
+          <line>21</line>
+          <properties class="main.JDBC.JDBCPractice1.BrandTest" method="testDelete">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -29,6 +29,7 @@
         <option value="$PROJECT_DIR$/01Spring/aop_advice_data/pom.xml" />
         <option value="$PROJECT_DIR$/01Spring/case_handle_password/pom.xml" />
         <option value="$PROJECT_DIR$/JavaWeb基础/src/main/maven/pom.xml" />
+        <option value="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -37,7 +38,7 @@
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_22" default="true" project-jdk-name="22" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="azul-17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
