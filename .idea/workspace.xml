@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73ded8c5-5a73-4395-aa36-ff0879e3c7b6" name="Changes" comment="Druid数据库连接池">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/JDBC/JDBCPractice1/BrandTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/JDBC/JDBCPractice1/pojo/Brand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/JDBC/resource/tb_brand.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apiguardian-api-1.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-5.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-api-5.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-engine-5.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-params-5.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-platform-commons-1.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-platform-engine-1.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/opentest4j-1.2.0.jar" afterDir="false" />
+    <list default="true" id="73ded8c5-5a73-4395-aa36-ff0879e3c7b6" name="Changes" comment="增删改查练习">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/maven/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/maven/src/main/java/com/d5error/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb基础/JavaWeb基础.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/JavaWeb基础.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/main/JDBC/druid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/JDBC/JDBCPractice1/pojo/pojo用来存放JavaBean" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +44,15 @@
     &quot;accountId&quot;: &quot;c6eea515-ac79-45bd-b1f7-0ba90cd4b685&quot;
   }
 }</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:\maven\apache-maven-3.9.9" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.9.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -67,6 +68,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.DruidDatabaseConnectionPool.executor": "Run",
+    "Application.HelloWorld.executor": "Run",
     "Application.JDBC.DruidDatabaseConnectionPool (1).executor": "Run",
     "Application.JDBC.DruidDatabaseConnectionPool.executor": "Run",
     "Application.JDBCDemo.executor": "Run",
@@ -79,6 +81,8 @@
     "JUnit.BrandTest.testDelete.executor": "Run",
     "JUnit.BrandTest.testSelectAll.executor": "Run",
     "JUnit.BrandTest.testUpdate.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.maven [clean].executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -87,7 +91,7 @@
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/repository/SSM+SpringBoot_learning/JavaWeb基础",
+    "last_opened_file_path": "E:/repository/SSM+SpringBoot_learning/JavaWeb基础/src/main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -96,7 +100,8 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.36136663",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.build.tools.auto.reload": "ALL",
+    "settings.editor.selected.configurable": "build.tools",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -107,20 +112,23 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\repository\SSM+SpringBoot_learning\JavaWeb基础\src\main\Maven\" />
       <recent name="E:\repository\SSM+SpringBoot_learning\JavaWeb基础\src\main\JDBC" />
       <recent name="E:\repository\SSM+SpringBoot_learning" />
       <recent name="E:\repository\SSM+SpringBoot_learning\JavaWeb基础\src\main\JDBC\resource" />
       <recent name="E:\repository\SSM+SpringBoot_learning\JavaWeb基础\src\main" />
-      <recent name="E:\repository\SSM+SpringBoot_learning\JavaWeb基础\src" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="main.Maven.src.main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BrandTest.testSelectAll">
-    <configuration name="main.JDBC.DruidDatabaseConnectionPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.JDBC.DruidDatabaseConnectionPool" />
-      <module name="JavaWeb基础" />
+  <component name="RunManager" selected="Application.HelloWorld">
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.d5error.HelloWorld" />
+      <module name="maven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.JDBC.JDBCPractice1.*" />
+          <option name="PATTERN" value="com.d5error.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HelloWorld" />
         <item itemvalue="JUnit.BrandTest.testSelectAll" />
         <item itemvalue="JUnit.BrandTest.testDelete" />
         <item itemvalue="JUnit.BrandTest.testUpdate" />
         <item itemvalue="JUnit.BrandTest.testAdd" />
-        <item itemvalue="Application.main.JDBC.DruidDatabaseConnectionPool" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +232,9 @@
       <workItem from="1727410980893" duration="4084000" />
       <workItem from="1727515825744" duration="3488000" />
       <workItem from="1727519596197" duration="687000" />
-      <workItem from="1727520573943" duration="4601000" />
+      <workItem from="1727520573943" duration="7957000" />
+      <workItem from="1727542657633" duration="407000" />
+      <workItem from="1727601246308" duration="742000" />
     </task>
     <task id="LOCAL-00001" summary="jdbc入门">
       <option name="closed" value="true" />
@@ -258,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727520147018</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="增删改查练习">
+      <option name="closed" value="true" />
+      <created>1727538141312</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727538141312</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +298,8 @@
     <MESSAGE value="jdbc入门" />
     <MESSAGE value="SQL注入" />
     <MESSAGE value="Druid数据库连接池" />
-    <option name="LAST_COMMIT_MESSAGE" value="Druid数据库连接池" />
+    <MESSAGE value="增删改查练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="增删改查练习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
