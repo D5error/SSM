@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73ded8c5-5a73-4395-aa36-ff0879e3c7b6" name="Changes" comment="Mybatis入门">
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/java/com/d5error/MapperDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/java/com/d5error/mapper/UserMapper.java" afterDir="false" />
+    <list default="true" id="73ded8c5-5a73-4395-aa36-ff0879e3c7b6" name="Changes" comment="Mapper代理开发">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/java/com/d5error/MybatisDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/java/com/d5error/MybatisDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/resources/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/resources/com/d5error/mapper/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/resources/mybatis-config.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -240,7 +236,7 @@
       <workItem from="1727621798798" duration="48000" />
       <workItem from="1727621857442" duration="519000" />
       <workItem from="1727622388889" duration="1377000" />
-      <workItem from="1727671723448" duration="1666000" />
+      <workItem from="1727671723448" duration="2446000" />
     </task>
     <task id="LOCAL-00001" summary="jdbc入门">
       <option name="closed" value="true" />
@@ -290,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727607536025</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Mapper代理开发">
+      <option name="closed" value="true" />
+      <created>1727673764915</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727673764915</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,7 +318,8 @@
     <MESSAGE value="Druid数据库连接池" />
     <MESSAGE value="增删改查练习" />
     <MESSAGE value="Maven" />
-    <option name="LAST_COMMIT_MESSAGE" value="Maven" />
+    <MESSAGE value="Mapper代理开发" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mapper代理开发" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

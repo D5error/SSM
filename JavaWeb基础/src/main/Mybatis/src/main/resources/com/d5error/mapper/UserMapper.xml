@@ -5,7 +5,7 @@
 
 
 <mapper namespace="com.d5error.mapper.UserMapper">
-    <select id="selectAll" resultType="com.d5error.pojo.User">
+    <select id="selectAll" resultType="User">
         select * from tb_user;
     </select>
 </mapper>
