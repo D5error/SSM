@@ -16,6 +16,66 @@ import java.util.Map;
 
 public class MybatisTest {
     @Test
+    public void testSelectByCOnditionSingleBrand() throws IOException {
+        // 获取brandMapper
+        SqlSession sqlSession = getSqlSession();
+        BrandMapper brandMapper = sqlSession.getMapper(BrandMapper.class);
+
+//        条件参数
+        int status = 1;
+        String companyName = "米";
+        String brandName = "为";
+
+        // 支持模糊查询
+        companyName = "%" + companyName + "%";
+        brandName = "%" + brandName + "%";
+
+        // 条件
+        System.out.println("status:" + status);
+        System.out.println("companyName:" + companyName);
+        System.out.println("brandName:" + brandName);
+
+
+        // 根据status
+        System.out.println("根据status查询");
+        Brand brand1 = new Brand();
+        brand1.setStatus(status);
+        ArrayList<Brand> brands1 = brandMapper.selectByConditionSingle(brand1);
+        for (Brand brand : brands1) {
+            System.out.println(brand);
+        }
+
+        // 根据companyName
+        System.out.println("根据companyName查询");
+        Brand brand2 = new Brand();
+        brand2.setCompanyName(companyName);
+        ArrayList<Brand> brands2 = brandMapper.selectByConditionSingle(brand2);
+        for (Brand brand : brands2) {
+            System.out.println(brand);
+        }
+
+        // 根据brandName
+        System.out.println("根据brandName查询");
+        Brand brand3 = new Brand();
+        brand3.setBrandName(brandName);
+        ArrayList<Brand> brands3 = brandMapper.selectByConditionSingle(brand3);
+        for (Brand brand : brands3) {
+            System.out.println(brand);
+        }
+        
+        // 什么都不写
+        System.out.println("什么都不根据");
+        ArrayList<Brand> brands4 = brandMapper.selectByConditionSingle(new Brand());
+        for (Brand brand : brands4) {
+            System.out.println(brand);
+        }
+
+        // 释放资源
+        sqlSession.close();
+    }
+
+
+    @Test
     public void testSelectByConditionBrand() throws IOException {
         // 获取brandMapper
         SqlSession sqlSession = getSqlSession();

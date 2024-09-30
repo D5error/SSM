@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73ded8c5-5a73-4395-aa36-ff0879e3c7b6" name="Changes" comment="Mybatis配置文件增删改查">
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/java/com/d5error/mapper/BrandMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/java/com/d5error/pojo/Brand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/resources/com/d5error/mapper/BrandMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/test/java/com/d5error/test/MybatisTest.java" afterDir="false" />
+    <list default="true" id="73ded8c5-5a73-4395-aa36-ff0879e3c7b6" name="Changes" comment="Mybatis基于配置文件的条件查询">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/java/com/d5error/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/java/com/d5error/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/resources/com/d5error/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/resources/com/d5error/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/resources/mybatis.sql" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/resources/mybatis.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/java/com/d5error/mapper/BrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/java/com/d5error/mapper/BrandMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/resources/com/d5error/mapper/BrandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/resources/com/d5error/mapper/BrandMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/test/java/com/d5error/test/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/test/java/com/d5error/test/MybatisTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,61 +63,62 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.DruidDatabaseConnectionPool.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HelloWorld.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JDBC.DruidDatabaseConnectionPool (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.JDBC.DruidDatabaseConnectionPool.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JDBCDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JDBCIntroductory.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JDBIntroductory.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MapperDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MybatisDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SQLInjection.executor&quot;: &quot;Run&quot;,
-    &quot;Application.main.JDBC.DruidDatabaseConnectionPool.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
-    &quot;JUnit.BrandTest.testAdd.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BrandTest.testDelete.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BrandTest.testSelectAll.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BrandTest.testUpdate.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MybatisTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MybatisTest.selectAllBrand.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MybatisTest.testSelectAllBrand.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MybatisTest.testSelectByConditionBrand.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MybatisTest.testSelectByIdBrand.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.maven [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.mybatis [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.mybatis [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/repository/SSM+SpringBoot_learning/JavaWeb基础/src/main/Mybatis&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.36136663&quot;,
-    &quot;settings.build.tools.auto.reload&quot;: &quot;SELECTIVE&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.DruidDatabaseConnectionPool.executor": "Run",
+    "Application.HelloWorld.executor": "Run",
+    "Application.JDBC.DruidDatabaseConnectionPool (1).executor": "Run",
+    "Application.JDBC.DruidDatabaseConnectionPool.executor": "Run",
+    "Application.JDBCDemo.executor": "Run",
+    "Application.JDBCIntroductory.executor": "Run",
+    "Application.JDBIntroductory.executor": "Run",
+    "Application.MapperDemo.executor": "Run",
+    "Application.MybatisDemo.executor": "Run",
+    "Application.SQLInjection.executor": "Run",
+    "Application.main.JDBC.DruidDatabaseConnectionPool.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "true",
+    "JUnit.BrandTest.testAdd.executor": "Run",
+    "JUnit.BrandTest.testDelete.executor": "Run",
+    "JUnit.BrandTest.testSelectAll.executor": "Run",
+    "JUnit.BrandTest.testUpdate.executor": "Run",
+    "JUnit.MybatisTest.executor": "Run",
+    "JUnit.MybatisTest.selectAllBrand.executor": "Run",
+    "JUnit.MybatisTest.testSelectAllBrand.executor": "Run",
+    "JUnit.MybatisTest.testSelectByCOnditionSingleBrand.executor": "Run",
+    "JUnit.MybatisTest.testSelectByConditionBrand.executor": "Run",
+    "JUnit.MybatisTest.testSelectByIdBrand.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.maven [clean].executor": "Run",
+    "Maven.mybatis [clean].executor": "Run",
+    "Maven.mybatis [compile].executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/repository/SSM+SpringBoot_learning/JavaWeb基础/src/main/Mybatis",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.36136663",
+    "settings.build.tools.auto.reload": "SELECTIVE",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\repository\SSM+SpringBoot_learning\JavaWeb基础\src\main\Mybatis\src\main\resources\com\d5error\mapper" />
@@ -133,7 +131,7 @@
       <recent name="main.Maven.src.main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisTest.testSelectByConditionBrand">
+  <component name="RunManager" selected="JUnit.MybatisTest.testSelectByCOnditionSingleBrand">
     <configuration name="MybatisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis" />
       <extension name="coverage">
@@ -149,22 +147,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest.selectAllBrand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.d5error.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.d5error.test" />
-      <option name="MAIN_CLASS_NAME" value="com.d5error.test.MybatisTest" />
-      <option name="METHOD_NAME" value="selectAllBrand" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MybatisTest.testSelectAllBrand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis" />
       <extension name="coverage">
@@ -176,6 +158,22 @@
       <option name="PACKAGE_NAME" value="com.d5error.test" />
       <option name="MAIN_CLASS_NAME" value="com.d5error.test.MybatisTest" />
       <option name="METHOD_NAME" value="testSelectAllBrand" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.testSelectByCOnditionSingleBrand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.d5error.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.d5error.test" />
+      <option name="MAIN_CLASS_NAME" value="com.d5error.test.MybatisTest" />
+      <option name="METHOD_NAME" value="testSelectByCOnditionSingleBrand" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -215,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MybatisTest.testSelectByConditionBrand" />
-        <item itemvalue="JUnit.MybatisTest.testSelectByIdBrand" />
+        <item itemvalue="JUnit.MybatisTest.testSelectByCOnditionSingleBrand" />
         <item itemvalue="JUnit.MybatisTest.testSelectAllBrand" />
+        <item itemvalue="JUnit.MybatisTest.testSelectByConditionBrand" />
         <item itemvalue="JUnit.MybatisTest" />
-        <item itemvalue="JUnit.MybatisTest.selectAllBrand" />
+        <item itemvalue="JUnit.MybatisTest.testSelectByIdBrand" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +256,7 @@
       <workItem from="1727671723448" duration="3916000" />
       <workItem from="1727680371951" duration="80000" />
       <workItem from="1727680460556" duration="6613000" />
-      <workItem from="1727711996804" duration="632000" />
+      <workItem from="1727711996804" duration="2849000" />
     </task>
     <task id="LOCAL-00001" summary="jdbc入门">
       <option name="closed" value="true" />
@@ -324,7 +322,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727674561053</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Mybatis基于配置文件的条件查询">
+      <option name="closed" value="true" />
+      <created>1727712761899</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1727712761899</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,7 +356,8 @@
     <MESSAGE value="Maven" />
     <MESSAGE value="Mapper代理开发" />
     <MESSAGE value="Mybatis配置文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mybatis配置文件" />
+    <MESSAGE value="Mybatis基于配置文件的条件查询" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mybatis基于配置文件的条件查询" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
