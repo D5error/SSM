@@ -64,4 +64,9 @@
             </choose>
         </where>
     </select>
+
+    <insert id="add" useGeneratedKeys="true" keyProperty="id">
+        insert into tb_brand (brand_name, company_name, orderd, description, status)
+        values (#{brandName}, #{companyName}, #{orderd}, #{description}, #{status});
+    </insert>
 </mapper>

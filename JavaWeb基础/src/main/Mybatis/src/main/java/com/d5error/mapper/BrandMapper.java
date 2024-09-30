@@ -24,4 +24,6 @@ public interface BrandMapper {
     public ArrayList<Brand> selectByCondition(Map map);
 
     public ArrayList<Brand> selectByConditionSingle(Brand brand);
+
+    int add(Brand brand);
 }

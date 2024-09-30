@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73ded8c5-5a73-4395-aa36-ff0879e3c7b6" name="Changes" comment="Mybatis基于配置文件的条件查询">
+    <list default="true" id="73ded8c5-5a73-4395-aa36-ff0879e3c7b6" name="Changes" comment="动态sql">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/java/com/d5error/mapper/BrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/java/com/d5error/mapper/BrandMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/resources/com/d5error/mapper/BrandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/resources/com/d5error/mapper/BrandMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/resources/mybatis-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/test/java/com/d5error/test/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/test/java/com/d5error/test/MybatisTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,6 +83,7 @@
     "JUnit.BrandTest.testUpdate.executor": "Run",
     "JUnit.MybatisTest.executor": "Run",
     "JUnit.MybatisTest.selectAllBrand.executor": "Run",
+    "JUnit.MybatisTest.testAddBrand.executor": "Run",
     "JUnit.MybatisTest.testSelectAllBrand.executor": "Run",
     "JUnit.MybatisTest.testSelectByCOnditionSingleBrand.executor": "Run",
     "JUnit.MybatisTest.testSelectByConditionBrand.executor": "Run",
@@ -131,7 +131,7 @@
       <recent name="main.Maven.src.main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisTest.testSelectByCOnditionSingleBrand">
+  <component name="RunManager" selected="JUnit.MybatisTest.testAddBrand">
     <configuration name="MybatisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis" />
       <extension name="coverage">
@@ -143,6 +143,22 @@
       <option name="PACKAGE_NAME" value="com.d5error.test" />
       <option name="MAIN_CLASS_NAME" value="com.d5error.test.MybatisTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.testAddBrand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.d5error.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.d5error.test" />
+      <option name="MAIN_CLASS_NAME" value="com.d5error.test.MybatisTest" />
+      <option name="METHOD_NAME" value="testAddBrand" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -195,29 +211,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest.testSelectByIdBrand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.d5error.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.d5error.test" />
-      <option name="MAIN_CLASS_NAME" value="com.d5error.test.MybatisTest" />
-      <option name="METHOD_NAME" value="testSelectByIdBrand" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MybatisTest.testAddBrand" />
         <item itemvalue="JUnit.MybatisTest.testSelectByCOnditionSingleBrand" />
         <item itemvalue="JUnit.MybatisTest.testSelectAllBrand" />
         <item itemvalue="JUnit.MybatisTest.testSelectByConditionBrand" />
         <item itemvalue="JUnit.MybatisTest" />
-        <item itemvalue="JUnit.MybatisTest.testSelectByIdBrand" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +256,7 @@
       <workItem from="1727671723448" duration="3916000" />
       <workItem from="1727680371951" duration="80000" />
       <workItem from="1727680460556" duration="6613000" />
-      <workItem from="1727711996804" duration="2849000" />
+      <workItem from="1727711996804" duration="4350000" />
     </task>
     <task id="LOCAL-00001" summary="jdbc入门">
       <option name="closed" value="true" />
@@ -330,7 +330,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727712761899</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="动态sql">
+      <option name="closed" value="true" />
+      <created>1727715175233</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1727715175233</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,7 +365,8 @@
     <MESSAGE value="Mapper代理开发" />
     <MESSAGE value="Mybatis配置文件" />
     <MESSAGE value="Mybatis基于配置文件的条件查询" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mybatis基于配置文件的条件查询" />
+    <MESSAGE value="动态sql" />
+    <option name="LAST_COMMIT_MESSAGE" value="动态sql" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

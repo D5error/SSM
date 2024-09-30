@@ -15,6 +15,31 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class MybatisTest {
+    @ Test
+    public void testAddBrand() throws IOException {
+//        get brandMapper
+        SqlSession sqlSession = getSqlSession();
+        BrandMapper brandMapper = sqlSession.getMapper(BrandMapper.class);
+
+        Brand brand = new Brand();
+        brand.setStatus(1);
+        brand.setBrandName("腾讯");
+        brand.setCompanyName("腾讯有限公司");
+        brand.setDescription("马总你听我说");
+        brand.setOrderd(333);
+        brandMapper.add(brand);
+
+        int id = brand.getId();
+        System.out.println("id: " + id);
+
+        // commit 事务
+        sqlSession.commit();
+
+        this.testSelectAllBrand();
+
+        sqlSession.close();
+    }
+
     @Test
     public void testSelectByCOnditionSingleBrand() throws IOException {
         // 获取brandMapper
