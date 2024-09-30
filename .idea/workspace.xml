@@ -5,20 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73ded8c5-5a73-4395-aa36-ff0879e3c7b6" name="Changes" comment="Mybatis入门">
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/java/com/d5error/MybatisDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/java/com/d5error/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/resources/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/resources/mybatis.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/java/com/d5error/MapperDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/java/com/d5error/mapper/UserMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb基础/JavaWeb基础.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/JavaWeb基础.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/main/maven/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/maven/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM+SpringBoot_learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SSM+SpringBoot_learning.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/java/com/d5error/MybatisDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/java/com/d5error/MybatisDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/resources/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/resources/com/d5error/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/resources/mybatis-config.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -81,6 +74,7 @@
     "Application.JDBCDemo.executor": "Run",
     "Application.JDBCIntroductory.executor": "Run",
     "Application.JDBIntroductory.executor": "Run",
+    "Application.MapperDemo.executor": "Run",
     "Application.MybatisDemo.executor": "Run",
     "Application.SQLInjection.executor": "Run",
     "Application.main.JDBC.DruidDatabaseConnectionPool.executor": "Run",
@@ -122,20 +116,33 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\repository\SSM+SpringBoot_learning\JavaWeb基础\src\main\Mybatis\src\main\resources\com\d5error\mapper" />
       <recent name="E:\repository\SSM+SpringBoot_learning\JavaWeb基础\src\main\Mybatis\src\main\java\com\d5error\pojo" />
       <recent name="E:\repository\SSM+SpringBoot_learning\JavaWeb基础\src\main\Maven\" />
       <recent name="E:\repository\SSM+SpringBoot_learning\JavaWeb基础\src\main\JDBC" />
       <recent name="E:\repository\SSM+SpringBoot_learning" />
-      <recent name="E:\repository\SSM+SpringBoot_learning\JavaWeb基础\src\main\JDBC\resource" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="main.Maven.src.main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MybatisDemo">
+  <component name="RunManager" selected="Application.MapperDemo">
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.d5error.HelloWorld" />
       <module name="maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.d5error.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapperDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.d5error.MapperDemo" />
+      <module name="mybatis" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.d5error.*" />
@@ -191,29 +198,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BrandTest.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaWeb基础" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.JDBC.JDBCPractice1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="main.JDBC.JDBCPractice1" />
-      <option name="MAIN_CLASS_NAME" value="main.JDBC.JDBCPractice1.BrandTest" />
-      <option name="METHOD_NAME" value="testUpdate" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapperDemo" />
         <item itemvalue="Application.MybatisDemo" />
         <item itemvalue="Application.HelloWorld" />
         <item itemvalue="JUnit.BrandTest.testSelectAll" />
         <item itemvalue="JUnit.BrandTest.testDelete" />
-        <item itemvalue="JUnit.BrandTest.testUpdate" />
       </list>
     </recent_temporary>
   </component>
@@ -249,6 +240,7 @@
       <workItem from="1727621798798" duration="48000" />
       <workItem from="1727621857442" duration="519000" />
       <workItem from="1727622388889" duration="1377000" />
+      <workItem from="1727671723448" duration="1666000" />
     </task>
     <task id="LOCAL-00001" summary="jdbc入门">
       <option name="closed" value="true" />

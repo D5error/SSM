@@ -1,5 +1,6 @@
 package com.d5error;
 
+import com.d5error.mapper.UserMapper;
 import com.d5error.pojo.User;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -8,9 +9,9 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.List;
+import java.util.ArrayList;
 
-public class MybatisDemo {
+public class MapperDemo {
     public static void main(String[] args) throws IOException {
 //        加载mybatis配置文件并创建sqlSeccsionFactory工厂对象
         String resource = "mybatis-config.xml";
@@ -20,16 +21,14 @@ public class MybatisDemo {
 //        获取sqlSession对象
         SqlSession sqlSession = sqlSessionFactory.openSession();
 
-//        执行sql语句
-        List<User> users = sqlSession.selectList("com.d5error.mapper.UserMapper.selectAll");
-
-//        打印结果
+        UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+        ArrayList<User> users = userMapper.selectAll();
         for (User user : users) {
             System.out.println(user);
         }
 
 //        释放资源
-        sqlSession.close();
         inputStream.close();
+        sqlSession.close();
     }
 }

@@ -16,6 +16,9 @@
     </environments>
     <mappers>
 <!--        sql 映射文件-->
-        <mapper resource="UserMapper.xml"/>
+<!--        <mapper resource="com/d5error/mapper/UserMapper.xml"/>-->
+
+<!--        Mapper包扫描-->
+        <package name="com.d5error.mapper"/>
     </mappers>
 </configuration>
