@@ -6,4 +6,6 @@ import java.util.ArrayList;
 
 public interface UserMapper {
     public ArrayList<User> selectAll();
+
+    public User selectById(int id);
 }
