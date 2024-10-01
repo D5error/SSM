@@ -16,6 +16,48 @@ import java.util.Map;
 
 public class MybatisTest {
     @ Test
+    public void testDeleteByIdsBrand() throws IOException {
+        //        get brandMapper
+        SqlSession sqlSession = getSqlSession();
+        BrandMapper brandMapper = sqlSession.getMapper(BrandMapper.class);
+
+        // parameter
+        int[] ids = {6, 7};
+
+        // execute
+        brandMapper.deleteByIds(ids);
+
+        // commit
+        sqlSession.commit();
+
+        // close resource
+        sqlSession.close();
+    }
+
+    @Test
+    public void testDeleteByIdBrand() throws IOException {
+//        get brandMapper
+        SqlSession sqlSession = getSqlSession();
+        BrandMapper brandMapper = sqlSession.getMapper(BrandMapper.class);
+
+        // parameter
+        int id = 9;
+
+        // get brand
+        Brand brand = new Brand();
+        brand.setId(id);
+
+        // execute
+        brandMapper.deleteById(id);
+
+        // commit
+        sqlSession.commit();
+
+        // close resource
+        sqlSession.close();
+    }
+
+    @ Test
     public void testUpdateBrand() throws IOException {
         // get brandMapper
         SqlSession sqlSession = getSqlSession();
