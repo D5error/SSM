@@ -69,4 +69,27 @@
         insert into tb_brand (brand_name, company_name, orderd, description, status)
         values (#{brandName}, #{companyName}, #{orderd}, #{description}, #{status});
     </insert>
+    
+    <update id="update">
+        update tb_brand
+        <set>
+            <if test="brandName != null and brandName != ''">
+                brand_name = #{brandName}
+            </if>
+            <if test="companyName != null and companyName != ''">
+                company_name = #{companyName}
+            </if>
+            <if test="orderd != null">
+                orderd = #{orderd}
+            </if>
+            <if test="description != null and description != ''">
+                description = #{description}
+            </if>
+            <if test="status != null">
+                status = #{status}
+            </if>
+        </set>
+        where
+            id = #{id}
+    </update>
 </mapper>

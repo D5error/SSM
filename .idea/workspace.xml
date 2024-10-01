@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73ded8c5-5a73-4395-aa36-ff0879e3c7b6" name="Changes" comment="动态sql">
+    <list default="true" id="73ded8c5-5a73-4395-aa36-ff0879e3c7b6" name="Changes" comment="mybatis基于配置文件的添加">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/java/com/d5error/mapper/BrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/java/com/d5error/mapper/BrandMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/resources/com/d5error/mapper/BrandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/src/main/resources/com/d5error/mapper/BrandMapper.xml" afterDir="false" />
@@ -88,6 +88,7 @@
     "JUnit.MybatisTest.testSelectByCOnditionSingleBrand.executor": "Run",
     "JUnit.MybatisTest.testSelectByConditionBrand.executor": "Run",
     "JUnit.MybatisTest.testSelectByIdBrand.executor": "Run",
+    "JUnit.MybatisTest.testUpdateBrand.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Maven.maven [clean].executor": "Run",
     "Maven.mybatis [clean].executor": "Run",
@@ -131,7 +132,7 @@
       <recent name="main.Maven.src.main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisTest.testAddBrand">
+  <component name="RunManager" selected="JUnit.MybatisTest.testSelectAllBrand">
     <configuration name="MybatisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis" />
       <extension name="coverage">
@@ -195,7 +196,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest.testSelectByConditionBrand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MybatisTest.testUpdateBrand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis" />
       <extension name="coverage">
         <pattern>
@@ -205,7 +206,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.d5error.test" />
       <option name="MAIN_CLASS_NAME" value="com.d5error.test.MybatisTest" />
-      <option name="METHOD_NAME" value="testSelectByConditionBrand" />
+      <option name="METHOD_NAME" value="testUpdateBrand" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -213,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MybatisTest.testSelectAllBrand" />
+        <item itemvalue="JUnit.MybatisTest.testUpdateBrand" />
+        <item itemvalue="JUnit.MybatisTest" />
         <item itemvalue="JUnit.MybatisTest.testAddBrand" />
         <item itemvalue="JUnit.MybatisTest.testSelectByCOnditionSingleBrand" />
-        <item itemvalue="JUnit.MybatisTest.testSelectAllBrand" />
-        <item itemvalue="JUnit.MybatisTest.testSelectByConditionBrand" />
-        <item itemvalue="JUnit.MybatisTest" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +257,8 @@
       <workItem from="1727671723448" duration="3916000" />
       <workItem from="1727680371951" duration="80000" />
       <workItem from="1727680460556" duration="6613000" />
-      <workItem from="1727711996804" duration="4350000" />
+      <workItem from="1727711996804" duration="4757000" />
+      <workItem from="1727716852237" duration="1201000" />
     </task>
     <task id="LOCAL-00001" summary="jdbc入门">
       <option name="closed" value="true" />
@@ -338,7 +340,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727715175233</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="mybatis基于配置文件的添加">
+      <option name="closed" value="true" />
+      <created>1727716632014</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1727716632014</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,7 +376,8 @@
     <MESSAGE value="Mybatis配置文件" />
     <MESSAGE value="Mybatis基于配置文件的条件查询" />
     <MESSAGE value="动态sql" />
-    <option name="LAST_COMMIT_MESSAGE" value="动态sql" />
+    <MESSAGE value="mybatis基于配置文件的添加" />
+    <option name="LAST_COMMIT_MESSAGE" value="mybatis基于配置文件的添加" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

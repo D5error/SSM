@@ -16,6 +16,33 @@ import java.util.Map;
 
 public class MybatisTest {
     @ Test
+    public void testUpdateBrand() throws IOException {
+        // get brandMapper
+        SqlSession sqlSession = getSqlSession();
+        BrandMapper brandMapper = sqlSession.getMapper(BrandMapper.class);
+
+        // parameter
+        int id = 6;
+        String description = "马总，我想要Q币";
+
+        // get brand
+        Brand brand = new Brand();
+        brand.setId(id);
+        brand.setDescription(description);
+
+        // execute
+        int i = brandMapper.update(brand);
+        System.out.println("更新了" + i + "行");
+
+
+        // commit
+        sqlSession.commit();
+
+        // close resource
+        sqlSession.close();
+    }
+
+    @ Test
     public void testAddBrand() throws IOException {
 //        get brandMapper
         SqlSession sqlSession = getSqlSession();
