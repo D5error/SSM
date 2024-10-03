@@ -10,9 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73ded8c5-5a73-4395-aa36-ff0879e3c7b6" name="Changes" comment="Tomcat 入门案例">
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Tomcat/src/main/java/com/d5error/web/MyServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/main/Tomcat/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Tomcat/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/main/Tomcat/src/main/java/com/d5error/web/MyHttpServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Tomcat/src/main/java/com/d5error/web/MyHttpServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/main/Tomcat/src/main/java/com/d5error/web/MyServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Tomcat/src/main/java/com/d5error/web/MyServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/main/Tomcat/src/main/webapp/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Tomcat/src/main/webapp/hello.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -197,7 +197,7 @@
       <workItem from="1727885674449" duration="312000" />
       <workItem from="1727886000773" duration="102000" />
       <workItem from="1727886111447" duration="104000" />
-      <workItem from="1727886225646" duration="2111000" />
+      <workItem from="1727886225646" duration="3700000" />
     </task>
     <task id="LOCAL-00001" summary="jdbc入门">
       <option name="closed" value="true" />
@@ -319,7 +319,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727796275171</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Tomcat 入门案例">
+      <option name="closed" value="true" />
+      <created>1727888778878</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1727888778878</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
