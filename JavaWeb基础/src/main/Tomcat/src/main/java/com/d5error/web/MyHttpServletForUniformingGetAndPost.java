@@ -1,10 +1,13 @@
 package com.d5error.web;
 
 import javax.servlet.ServletException;
+import javax.servlet.ServletOutputStream;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.util.Map;
@@ -37,6 +40,26 @@ public class MyHttpServletForUniformingGetAndPost extends HttpServlet {
             }
             System.out.println();
         }
+
+
+        // 响应字节数据
+        FileInputStream fileInputStream = new FileInputStream("src/main/resources/whiteD5.png");
+        ServletOutputStream outputStream = resp.getOutputStream();
+        byte[] buffer = new byte[1024];
+        int len = 0;
+        while ((len = fileInputStream.read(buffer)) != -1) {
+            outputStream.write(buffer, 0, len);
+        }
+
+
+        // 响应字符数据
+        resp.setHeader("content-type", "text/html;charset=utf-8");
+        String name = req.getParameter("name");
+        System.out.println("'/http-servlet': name = " + name);
+        resp.getWriter().write("<h1>" + name + ",你好</h1>");
+
+        outputStream.close();
+        fileInputStream.close();
     }
 
     @ Override
