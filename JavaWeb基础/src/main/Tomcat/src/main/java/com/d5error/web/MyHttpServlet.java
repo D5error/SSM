@@ -39,6 +39,9 @@ public class MyHttpServlet extends HttpServlet {
         System.out.println("userAgent:" + userAgent);
         System.out.println("================\n");
 
+        System.out.println("Request请求转发~~~");
+        req.setAttribute("msg", "有个转发请求过来咯~");
+        req.getRequestDispatcher("/GetAndPost").forward(req, resp);
     }
 
     @Override

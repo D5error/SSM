@@ -9,8 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73ded8c5-5a73-4395-aa36-ff0879e3c7b6" name="Changes" comment="servlet统一get请求和post请求获取请求参数有">
+    <list default="true" id="73ded8c5-5a73-4395-aa36-ff0879e3c7b6" name="Changes" comment="servlet解决get和post的中文乱码问题">
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Tomcat/src/main/java/com/d5error/web/ReDirect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/main/Tomcat/src/main/java/com/d5error/web/MyHttpServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Tomcat/src/main/java/com/d5error/web/MyHttpServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/main/Tomcat/src/main/java/com/d5error/web/MyHttpServletForUniformingGetAndPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Tomcat/src/main/java/com/d5error/web/MyHttpServletForUniformingGetAndPost.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -206,7 +208,7 @@
       <workItem from="1728052877170" duration="239000" />
       <workItem from="1728053128232" duration="933000" />
       <workItem from="1728121591861" duration="4120000" />
-      <workItem from="1728136595799" duration="2436000" />
+      <workItem from="1728136595799" duration="5784000" />
     </task>
     <task id="LOCAL-00001" summary="jdbc入门">
       <option name="closed" value="true" />
@@ -360,7 +362,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728137340721</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="servlet解决get和post的中文乱码问题">
+      <option name="closed" value="true" />
+      <created>1728139392933</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1728139392933</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -396,7 +406,8 @@
     <MESSAGE value="Tomcat xml配置" />
     <MESSAGE value="servlet request and response" />
     <MESSAGE value="servlet统一get请求和post请求获取请求参数有" />
-    <option name="LAST_COMMIT_MESSAGE" value="servlet统一get请求和post请求获取请求参数有" />
+    <MESSAGE value="servlet解决get和post的中文乱码问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="servlet解决get和post的中文乱码问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

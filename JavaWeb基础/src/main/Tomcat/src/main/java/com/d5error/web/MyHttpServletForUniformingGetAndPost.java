@@ -15,6 +15,11 @@ public class MyHttpServletForUniformingGetAndPost extends HttpServlet {
 
     @ Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        String msg = (String) req.getAttribute("msg");
+        if (msg != null) {
+            System.out.println("msg: " + req.getAttribute("msg"));
+        }
+
         System.out.println("收到一条get请求");
 
         req.setCharacterEncoding("UTF-8");
@@ -38,7 +43,7 @@ public class MyHttpServletForUniformingGetAndPost extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         isPost = true;
         System.out.println("收到了一条post请求");
-        System.out.println("转发至doGet方法");
+        System.out.println("调用doGet方法");
         this.doGet(req, resp);
     }
 }
