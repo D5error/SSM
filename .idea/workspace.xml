@@ -9,10 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73ded8c5-5a73-4395-aa36-ff0879e3c7b6" name="Changes" comment="Tomcat 入门案例">
+    <list default="true" id="73ded8c5-5a73-4395-aa36-ff0879e3c7b6" name="Changes" comment="servlet request and response">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/main/Tomcat/src/main/java/com/d5error/web/MyHttpServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Tomcat/src/main/java/com/d5error/web/MyHttpServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/main/Tomcat/src/main/java/com/d5error/web/MyServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Tomcat/src/main/java/com/d5error/web/MyServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/main/Tomcat/src/main/webapp/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Tomcat/src/main/webapp/hello.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,71 +74,72 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.DruidDatabaseConnectionPool.executor": "Run",
-    "Application.HelloWorld.executor": "Run",
-    "Application.JDBC.DruidDatabaseConnectionPool (1).executor": "Run",
-    "Application.JDBC.DruidDatabaseConnectionPool.executor": "Run",
-    "Application.JDBCDemo.executor": "Run",
-    "Application.JDBCIntroductory.executor": "Run",
-    "Application.JDBIntroductory.executor": "Run",
-    "Application.MapperDemo.executor": "Run",
-    "Application.MybatisDemo.executor": "Run",
-    "Application.SQLInjection.executor": "Run",
-    "Application.main.JDBC.DruidDatabaseConnectionPool.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Downloaded.Files.Path.Enabled": "true",
-    "JUnit.BrandTest.testAdd.executor": "Run",
-    "JUnit.BrandTest.testDelete.executor": "Run",
-    "JUnit.BrandTest.testSelectAll.executor": "Run",
-    "JUnit.BrandTest.testUpdate.executor": "Run",
-    "JUnit.MybatisTest.executor": "Run",
-    "JUnit.MybatisTest.selectAllBrand.executor": "Run",
-    "JUnit.MybatisTest.testAddBrand.executor": "Run",
-    "JUnit.MybatisTest.testDeleteByIdBrand.executor": "Run",
-    "JUnit.MybatisTest.testDeleteByIdsBrand.executor": "Run",
-    "JUnit.MybatisTest.testSelectAllBrand.executor": "Run",
-    "JUnit.MybatisTest.testSelectByCOnditionSingleBrand.executor": "Run",
-    "JUnit.MybatisTest.testSelectByConditionBrand.executor": "Run",
-    "JUnit.MybatisTest.testSelectByIdBrand.executor": "Run",
-    "JUnit.MybatisTest.testUpdateBrand.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "Maven.Tomcat [tomcat7:run].executor": "Run",
-    "Maven.maven [clean].executor": "Run",
-    "Maven.mybatis [clean].executor": "Run",
-    "Maven.mybatis [compile].executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Tomcat Server.Tomcat 11.0.0-M26.executor": "Run",
-    "Tomcat Server.Tomcat.executor": "Run",
-    "Tomcat Server.Tomcat11.executor": "Run",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/D5/Desktop/test",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.36136663",
-    "settings.build.tools.auto.reload": "SELECTIVE",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.DruidDatabaseConnectionPool.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloWorld.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JDBC.DruidDatabaseConnectionPool (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.JDBC.DruidDatabaseConnectionPool.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JDBCDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JDBCIntroductory.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JDBIntroductory.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MapperDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MybatisDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SQLInjection.executor&quot;: &quot;Run&quot;,
+    &quot;Application.main.JDBC.DruidDatabaseConnectionPool.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;JUnit.BrandTest.testAdd.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BrandTest.testDelete.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BrandTest.testSelectAll.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BrandTest.testUpdate.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MybatisTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MybatisTest.selectAllBrand.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MybatisTest.testAddBrand.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MybatisTest.testDeleteByIdBrand.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MybatisTest.testDeleteByIdsBrand.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MybatisTest.testSelectAllBrand.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MybatisTest.testSelectByCOnditionSingleBrand.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MybatisTest.testSelectByConditionBrand.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MybatisTest.testSelectByIdBrand.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MybatisTest.testUpdateBrand.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Tomcat [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Tomcat [tomcat7:run].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.maven [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.mybatis [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.mybatis [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 11.0.0-M26.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.Tomcat.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.Tomcat11.executor&quot;: &quot;Run&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/D5/Desktop/test&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.36136663&quot;,
+    &quot;settings.build.tools.auto.reload&quot;: &quot;SELECTIVE&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\repository\SSM+SpringBoot_learning\JavaWeb基础\src\main\Mybatis\src\main\resources\com\d5error\mapper" />
@@ -197,7 +197,16 @@
       <workItem from="1727885674449" duration="312000" />
       <workItem from="1727886000773" duration="102000" />
       <workItem from="1727886111447" duration="104000" />
-      <workItem from="1727886225646" duration="3700000" />
+      <workItem from="1727886225646" duration="7638000" />
+      <workItem from="1728048752805" duration="529000" />
+      <workItem from="1728050281779" duration="599000" />
+      <workItem from="1728051199610" duration="267000" />
+      <workItem from="1728051656522" duration="47000" />
+      <workItem from="1728051712326" duration="219000" />
+      <workItem from="1728051942003" duration="125000" />
+      <workItem from="1728052877170" duration="239000" />
+      <workItem from="1728053128232" duration="933000" />
+      <workItem from="1728121591861" duration="1571000" />
     </task>
     <task id="LOCAL-00001" summary="jdbc入门">
       <option name="closed" value="true" />
@@ -327,7 +336,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727888778878</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Tomcat xml配置">
+      <option name="closed" value="true" />
+      <created>1727926437472</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1727926437472</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,7 +377,8 @@
     <MESSAGE value="修改readme" />
     <MESSAGE value="mybatis基于配置文件的删除" />
     <MESSAGE value="Tomcat 入门案例" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tomcat 入门案例" />
+    <MESSAGE value="Tomcat xml配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tomcat xml配置" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

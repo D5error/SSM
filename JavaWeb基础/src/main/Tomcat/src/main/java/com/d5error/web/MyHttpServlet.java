@@ -5,6 +5,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.BufferedReader;
 import java.io.IOException;
 
 //这里用了xml，相对于注解不方便
@@ -12,11 +13,40 @@ import java.io.IOException;
 public class MyHttpServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        System.out.println("do");
+        resp.setHeader("content-type", "text/html;charset=utf-8");
+        String name = req.getParameter("name");
+        resp.getWriter().write("<h1>" + name + ",你好</h1>");
+
+        System.out.println("***获取请求行***");
+        String method = req.getMethod();
+        System.out.println("method:" + method);
+
+        String contextPath = req.getContextPath();
+        System.out.println("contextPath:" + contextPath);
+
+        StringBuffer getRequestURL = req.getRequestURL();
+        System.out.println("getRequestURL:" + getRequestURL);
+
+        String getRequestURI = req.getRequestURI();
+        System.out.println("getRequestURI:" + getRequestURI);
+
+        String getQueryString = req.getQueryString();
+        System.out.println("getQueryString:" + getQueryString);
+        System.out.println("****************\n");
+
+        System.out.println("===获取请求头===");
+        String userAgent = req.getHeader("user-agent");
+        System.out.println("userAgent:" + userAgent);
+        System.out.println("================\n");
+
     }
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        System.out.println("get");
+        System.out.println("+++获取请求体+++");
+        BufferedReader reader = req.getReader();
+        String s = reader.readLine();
+        System.out.println(s);
+        System.out.println("++++++++++++++++");
     }
 }
