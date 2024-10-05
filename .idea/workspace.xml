@@ -9,11 +9,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73ded8c5-5a73-4395-aa36-ff0879e3c7b6" name="Changes" comment="servlet重定向">
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Tomcat/src/main/resources/whiteD5.png" afterDir="false" />
+    <list default="true" id="73ded8c5-5a73-4395-aa36-ff0879e3c7b6" name="Changes" comment="servlet响应数据">
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Login/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Login/src/main/java/com/d5error/mapper/AccountsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Login/src/main/java/com/d5error/pojo/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Login/src/main/java/com/d5error/web/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Login/src/main/resources/com/d5error/mapper/AccountsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Login/src/main/resources/database.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Login/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Login/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Login/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Login/src/test/java/com/d5error/test/MybatisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/main/Tomcat/src/main/java/com/d5error/web/MyHttpServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Tomcat/src/main/java/com/d5error/web/MyHttpServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/main/Tomcat/src/main/java/com/d5error/web/MyHttpServletForUniformingGetAndPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Tomcat/src/main/java/com/d5error/web/MyHttpServletForUniformingGetAndPost.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +108,7 @@
     "JUnit.BrandTest.testUpdate.executor": "Run",
     "JUnit.MybatisTest.executor": "Run",
     "JUnit.MybatisTest.selectAllBrand.executor": "Run",
+    "JUnit.MybatisTest.testAddAccount.executor": "Run",
     "JUnit.MybatisTest.testAddBrand.executor": "Run",
     "JUnit.MybatisTest.testDeleteByIdBrand.executor": "Run",
     "JUnit.MybatisTest.testDeleteByIdsBrand.executor": "Run",
@@ -104,8 +116,10 @@
     "JUnit.MybatisTest.testSelectByCOnditionSingleBrand.executor": "Run",
     "JUnit.MybatisTest.testSelectByConditionBrand.executor": "Run",
     "JUnit.MybatisTest.testSelectByIdBrand.executor": "Run",
+    "JUnit.MybatisTest.testSelectByUsername.executor": "Run",
     "JUnit.MybatisTest.testUpdateBrand.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.Login [tomcat7:run].executor": "Run",
     "Maven.Tomcat [clean].executor": "Run",
     "Maven.Tomcat [tomcat7:run].executor": "Run",
     "Maven.maven [clean].executor": "Run",
@@ -155,6 +169,46 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="main.Maven.src.main" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MybatisTest.testAddAccount">
+    <configuration name="MybatisTest.testAddAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.d5error.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.d5error.test" />
+      <option name="MAIN_CLASS_NAME" value="com.d5error.test.MybatisTest" />
+      <option name="METHOD_NAME" value="testAddAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.testSelectByUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.d5error.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.d5error.test" />
+      <option name="MAIN_CLASS_NAME" value="com.d5error.test.MybatisTest" />
+      <option name="METHOD_NAME" value="testSelectByUsername" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MybatisTest.testAddAccount" />
+        <item itemvalue="JUnit.MybatisTest.testSelectByUsername" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -211,7 +265,8 @@
       <workItem from="1728052877170" duration="239000" />
       <workItem from="1728053128232" duration="933000" />
       <workItem from="1728121591861" duration="4120000" />
-      <workItem from="1728136595799" duration="8143000" />
+      <workItem from="1728136595799" duration="8405000" />
+      <workItem from="1728145924283" duration="4671000" />
     </task>
     <task id="LOCAL-00001" summary="jdbc入门">
       <option name="closed" value="true" />
@@ -381,7 +436,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728143560972</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="servlet响应数据">
+      <option name="closed" value="true" />
+      <created>1728145601988</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1728145601988</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -419,7 +482,8 @@
     <MESSAGE value="servlet统一get请求和post请求获取请求参数有" />
     <MESSAGE value="servlet解决get和post的中文乱码问题" />
     <MESSAGE value="servlet重定向" />
-    <option name="LAST_COMMIT_MESSAGE" value="servlet重定向" />
+    <MESSAGE value="servlet响应数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="servlet响应数据" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

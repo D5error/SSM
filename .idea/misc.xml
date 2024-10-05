@@ -31,6 +31,7 @@
         <option value="$PROJECT_DIR$/JavaWeb基础/src/main/maven/pom.xml" />
         <option value="$PROJECT_DIR$/JavaWeb基础/src/main/Mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/JavaWeb基础/src/main/Tomcat/pom.xml" />
+        <option value="$PROJECT_DIR$/JavaWeb基础/src/main/Login/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
