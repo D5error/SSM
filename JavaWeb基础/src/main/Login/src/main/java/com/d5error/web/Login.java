@@ -2,6 +2,7 @@ package com.d5error.web;
 
 import com.d5error.mapper.AccountsMapper;
 import com.d5error.pojo.Account;
+import com.d5error.util.SqlSessionFactoryUtils;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -14,6 +15,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
+
 
 @WebServlet("/login")
 public class Login extends HttpServlet {
@@ -88,7 +90,7 @@ public class Login extends HttpServlet {
     }
 
     private SqlSession getSqlSession() throws IOException {
-        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(Resources.getResourceAsStream("mybatis-config.xml"));
-        return sqlSessionFactory.openSession();
+        SqlSession sqlSession = SqlSessionFactoryUtils.getSqlsession();
+        return sqlSession;
     }
 }
