@@ -17,4 +17,8 @@
         from accounts
         where username = #{username};
     </select>
+    <select id="selectAll" resultType="com.d5error.pojo.Account">
+        select *
+        from accounts;
+    </select>
 </mapper>

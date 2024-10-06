@@ -10,8 +10,19 @@ import org.junit.Test;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.ArrayList;
 
 public class MybatisTest {
+    @ Test
+    public void testSelectAll() throws IOException {
+        SqlSession sqlSession = getSqlSession();
+        AccountsMapper accountsMapper = sqlSession.getMapper(AccountsMapper.class);
+        ArrayList<Account> accounts = accountsMapper.selectAll();
+        for (Account account : accounts) {
+            System.out.println(account);
+        }
+    }
+
     @Test
     public void testSelectByUsername() throws IOException {
         SqlSession sqlSession = getSqlSession();
