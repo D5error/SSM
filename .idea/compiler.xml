@@ -9,6 +9,7 @@
         <module name="Tomcat" />
         <module name="Login" />
         <module name="maven" />
+        <module name="JSP" />
         <module name="mybatis" />
       </profile>
     </annotationProcessing>
