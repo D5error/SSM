@@ -9,10 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73ded8c5-5a73-4395-aa36-ff0879e3c7b6" name="Changes" comment="JSP入门">
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/JSP/src/main/java/com/d5error/web/MyServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/JSP/src/main/webapp/el.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="73ded8c5-5a73-4395-aa36-ff0879e3c7b6" name="Changes" comment="EL表达式">
+      <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/main/JSP/src/main/webapp/el.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/JSP/src/main/webapp/el.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,7 +274,7 @@
       <workItem from="1728136595799" duration="8405000" />
       <workItem from="1728145924283" duration="7593000" />
       <workItem from="1728223422549" duration="5961000" />
-      <workItem from="1728232498126" duration="1810000" />
+      <workItem from="1728232498126" duration="2118000" />
     </task>
     <task id="LOCAL-00001" summary="jdbc入门">
       <option name="closed" value="true" />
@@ -486,7 +484,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728275518507</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="EL表达式">
+      <option name="closed" value="true" />
+      <created>1728276798661</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1728276798661</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -528,7 +534,8 @@
     <MESSAGE value="利用Tomcat Servlet实现登录网页的功能" />
     <MESSAGE value="利用Tomcat Servlet实现登录网页的功能：解决多次创建工厂的问题" />
     <MESSAGE value="JSP入门" />
-    <option name="LAST_COMMIT_MESSAGE" value="JSP入门" />
+    <MESSAGE value="EL表达式" />
+    <option name="LAST_COMMIT_MESSAGE" value="EL表达式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
