@@ -9,7 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73ded8c5-5a73-4395-aa36-ff0879e3c7b6" name="Changes" comment="EL表达式">
+    <list default="true" id="73ded8c5-5a73-4395-aa36-ff0879e3c7b6" name="Changes" comment="JSTL标签">
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/JSP/src/main/java/com/d5error/web/MyServlet2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/JSP/src/main/webapp/jstl.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/main/JSP/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/JSP/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/main/JSP/src/main/webapp/el.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/JSP/src/main/webapp/el.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,6 +111,7 @@
     &quot;JUnit.MybatisTest.testSelectByUsername.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MybatisTest.testUpdateBrand.executor&quot;: &quot;Run&quot;,
     &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.JSP [clean].executor&quot;: &quot;Run&quot;,
     &quot;Maven.JSP [tomcat7:run].executor&quot;: &quot;Run&quot;,
     &quot;Maven.Login [tomcat7:run].executor&quot;: &quot;Run&quot;,
     &quot;Maven.Tomcat [clean].executor&quot;: &quot;Run&quot;,
@@ -157,6 +162,9 @@
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="main.Maven.src.main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.d5error.web" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.MybatisTest.testSelectAll">
@@ -274,7 +282,9 @@
       <workItem from="1728136595799" duration="8405000" />
       <workItem from="1728145924283" duration="7593000" />
       <workItem from="1728223422549" duration="5961000" />
-      <workItem from="1728232498126" duration="2118000" />
+      <workItem from="1728232498126" duration="3602000" />
+      <workItem from="1728278383809" duration="29000" />
+      <workItem from="1728278588593" duration="1289000" />
     </task>
     <task id="LOCAL-00001" summary="jdbc入门">
       <option name="closed" value="true" />
@@ -492,7 +502,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728276798661</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="EL表达式">
+      <option name="closed" value="true" />
+      <created>1728276911477</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1728276911477</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
