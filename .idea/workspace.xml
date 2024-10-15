@@ -9,7 +9,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73ded8c5-5a73-4395-aa36-ff0879e3c7b6" name="Changes" comment="修改readme" />
+    <list default="true" id="73ded8c5-5a73-4395-aa36-ff0879e3c7b6" name="Changes" comment="Cookie">
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Cookie/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Cookie/src/main/java/com/d5error/web/CookieServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Cookie/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Cookie/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,6 +118,7 @@
     &quot;JUnit.MybatisTest.testUpdate.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MybatisTest.testUpdateBrand.executor&quot;: &quot;Run&quot;,
     &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Cookie [tomcat7:run].executor&quot;: &quot;Run&quot;,
     &quot;Maven.JSP [clean].executor&quot;: &quot;Run&quot;,
     &quot;Maven.JSP [tomcat7:run].executor&quot;: &quot;Run&quot;,
     &quot;Maven.Login [tomcat7:run].executor&quot;: &quot;Run&quot;,
@@ -135,7 +145,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.36136663&quot;,
     &quot;settings.build.tools.auto.reload&quot;: &quot;SELECTIVE&quot;,
@@ -320,6 +330,9 @@
       <workItem from="1728278588593" duration="12956000" />
       <workItem from="1728464732701" duration="356000" />
       <workItem from="1728814590414" duration="9945000" />
+      <workItem from="1728960087930" duration="47000" />
+      <workItem from="1728970339019" duration="1046000" />
+      <workItem from="1729001664930" duration="1211000" />
     </task>
     <task id="LOCAL-00001" summary="jdbc入门">
       <option name="closed" value="true" />
@@ -569,7 +582,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728957819557</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="修改readme">
+      <option name="closed" value="true" />
+      <created>1728960123675</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1728960123675</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
