@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Tomcat" />
         <module name="Login" />
+        <module name="ThreeLayer" />
         <module name="maven" />
         <module name="JSP" />
         <module name="mybatis" />

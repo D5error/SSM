@@ -10,11 +10,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73ded8c5-5a73-4395-aa36-ff0879e3c7b6" name="Changes" comment="JSTL标签">
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/JSP/src/main/java/com/d5error/web/MyServlet2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/JSP/src/main/webapp/jstl.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/ThreeLayer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/ThreeLayer/src/main/java/com/d5error/mapper/BrandMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/ThreeLayer/src/main/java/com/d5error/pojo/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/ThreeLayer/src/main/java/com/d5error/service/BrandService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/ThreeLayer/src/main/java/com/d5error/util/Sqlsession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/ThreeLayer/src/main/java/com/d5error/web/AddServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/ThreeLayer/src/main/java/com/d5error/web/DeleteByIdServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/ThreeLayer/src/main/java/com/d5error/web/SelectAllServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/ThreeLayer/src/main/java/com/d5error/web/SelectByIdServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/ThreeLayer/src/main/java/com/d5error/web/UpdateServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/ThreeLayer/src/main/resources/com/d5error/mapper/BrandMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/ThreeLayer/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/ThreeLayer/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/ThreeLayer/src/main/webapp/addBrand.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/ThreeLayer/src/main/webapp/brand.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/ThreeLayer/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/ThreeLayer/src/main/webapp/updateBrand.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/ThreeLayer/src/test/java/com/d5error/test/MybatisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/main/JSP/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/JSP/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/main/JSP/src/main/webapp/el.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/JSP/src/main/webapp/el.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +43,8 @@
       <list>
         <option value="Interface" />
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -98,22 +115,27 @@
     &quot;JUnit.BrandTest.testSelectAll.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.BrandTest.testUpdate.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MybatisTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MybatisTest.runAllTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MybatisTest.selectAllBrand.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MybatisTest.testAddAccount.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MybatisTest.testAddBrand.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MybatisTest.testDeleteByIdBrand.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MybatisTest.testDeleteByIdsBrand.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MybatisTest.testSelectAll (1).executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MybatisTest.testSelectAll.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MybatisTest.testSelectAllBrand.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MybatisTest.testSelectByCOnditionSingleBrand.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MybatisTest.testSelectByConditionBrand.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MybatisTest.testSelectById.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MybatisTest.testSelectByIdBrand.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MybatisTest.testSelectByUsername.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MybatisTest.testUpdate.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MybatisTest.testUpdateBrand.executor&quot;: &quot;Run&quot;,
     &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
     &quot;Maven.JSP [clean].executor&quot;: &quot;Run&quot;,
     &quot;Maven.JSP [tomcat7:run].executor&quot;: &quot;Run&quot;,
     &quot;Maven.Login [tomcat7:run].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ThreeLayer [tomcat7:run].executor&quot;: &quot;Run&quot;,
     &quot;Maven.Tomcat [clean].executor&quot;: &quot;Run&quot;,
     &quot;Maven.Tomcat [tomcat7:run].executor&quot;: &quot;Run&quot;,
     &quot;Maven.maven [clean].executor&quot;: &quot;Run&quot;,
@@ -167,9 +189,9 @@
       <recent name="com.d5error.web" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisTest.testSelectAll">
-    <configuration name="MybatisTest.testAddAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Login" />
+  <component name="RunManager" selected="JUnit.MybatisTest.testSelectAll (1)">
+    <configuration name="MybatisTest.runAllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ThreeLayer" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.d5error.test.*" />
@@ -178,7 +200,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.d5error.test" />
       <option name="MAIN_CLASS_NAME" value="com.d5error.test.MybatisTest" />
-      <option name="METHOD_NAME" value="testAddAccount" />
+      <option name="METHOD_NAME" value="runAllTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.testSelectAll (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ThreeLayer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.d5error.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.d5error.test" />
+      <option name="MAIN_CLASS_NAME" value="com.d5error.test.MybatisTest" />
+      <option name="METHOD_NAME" value="testSelectAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -200,8 +238,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest.testSelectByUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Login" />
+    <configuration name="MybatisTest.testSelectById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ThreeLayer" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.d5error.test.*" />
@@ -210,7 +248,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.d5error.test" />
       <option name="MAIN_CLASS_NAME" value="com.d5error.test.MybatisTest" />
-      <option name="METHOD_NAME" value="testSelectByUsername" />
+      <option name="METHOD_NAME" value="testSelectById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ThreeLayer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.d5error.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.d5error.test" />
+      <option name="MAIN_CLASS_NAME" value="com.d5error.test.MybatisTest" />
+      <option name="METHOD_NAME" value="testUpdate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -218,9 +272,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MybatisTest.testSelectAll (1)" />
+        <item itemvalue="JUnit.MybatisTest.testSelectById" />
+        <item itemvalue="JUnit.MybatisTest.testUpdate" />
+        <item itemvalue="JUnit.MybatisTest.runAllTest" />
         <item itemvalue="JUnit.MybatisTest.testSelectAll" />
-        <item itemvalue="JUnit.MybatisTest.testAddAccount" />
-        <item itemvalue="JUnit.MybatisTest.testSelectByUsername" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +340,9 @@
       <workItem from="1728223422549" duration="5961000" />
       <workItem from="1728232498126" duration="3602000" />
       <workItem from="1728278383809" duration="29000" />
-      <workItem from="1728278588593" duration="1289000" />
+      <workItem from="1728278588593" duration="12956000" />
+      <workItem from="1728464732701" duration="356000" />
+      <workItem from="1728814590414" duration="9780000" />
     </task>
     <task id="LOCAL-00001" summary="jdbc入门">
       <option name="closed" value="true" />
@@ -510,7 +568,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728276911477</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="JSTL标签">
+      <option name="closed" value="true" />
+      <created>1728280240570</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1728280240570</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,7 +619,8 @@
     <MESSAGE value="利用Tomcat Servlet实现登录网页的功能：解决多次创建工厂的问题" />
     <MESSAGE value="JSP入门" />
     <MESSAGE value="EL表达式" />
-    <option name="LAST_COMMIT_MESSAGE" value="EL表达式" />
+    <MESSAGE value="JSTL标签" />
+    <option name="LAST_COMMIT_MESSAGE" value="JSTL标签" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
