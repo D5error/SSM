@@ -9,30 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73ded8c5-5a73-4395-aa36-ff0879e3c7b6" name="Changes" comment="JSTL标签">
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/ThreeLayer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/ThreeLayer/src/main/java/com/d5error/mapper/BrandMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/ThreeLayer/src/main/java/com/d5error/pojo/Brand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/ThreeLayer/src/main/java/com/d5error/service/BrandService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/ThreeLayer/src/main/java/com/d5error/util/Sqlsession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/ThreeLayer/src/main/java/com/d5error/web/AddServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/ThreeLayer/src/main/java/com/d5error/web/DeleteByIdServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/ThreeLayer/src/main/java/com/d5error/web/SelectAllServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/ThreeLayer/src/main/java/com/d5error/web/SelectByIdServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/ThreeLayer/src/main/java/com/d5error/web/UpdateServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/ThreeLayer/src/main/resources/com/d5error/mapper/BrandMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/ThreeLayer/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/ThreeLayer/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/ThreeLayer/src/main/webapp/addBrand.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/ThreeLayer/src/main/webapp/brand.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/ThreeLayer/src/main/webapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/ThreeLayer/src/main/webapp/updateBrand.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/ThreeLayer/src/test/java/com/d5error/test/MybatisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="73ded8c5-5a73-4395-aa36-ff0879e3c7b6" name="Changes" comment="修改readme" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -342,7 +319,7 @@
       <workItem from="1728278383809" duration="29000" />
       <workItem from="1728278588593" duration="12956000" />
       <workItem from="1728464732701" duration="356000" />
-      <workItem from="1728814590414" duration="9780000" />
+      <workItem from="1728814590414" duration="9945000" />
     </task>
     <task id="LOCAL-00001" summary="jdbc入门">
       <option name="closed" value="true" />
@@ -576,7 +553,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728280240570</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="浏览器对数据库进行增删改查案例">
+      <option name="closed" value="true" />
+      <created>1728957668118</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1728957668118</updated>
+    </task>
+    <task id="LOCAL-00031" summary="修改readme">
+      <option name="closed" value="true" />
+      <created>1728957819557</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1728957819557</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -595,7 +588,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="jdbc入门" />
     <MESSAGE value="SQL注入" />
     <MESSAGE value="Druid数据库连接池" />
     <MESSAGE value="增删改查练习" />
@@ -606,7 +598,6 @@
     <MESSAGE value="动态sql" />
     <MESSAGE value="mybatis基于配置文件的添加" />
     <MESSAGE value="mybatis基于配置文件的修改" />
-    <MESSAGE value="修改readme" />
     <MESSAGE value="mybatis基于配置文件的删除" />
     <MESSAGE value="Tomcat 入门案例" />
     <MESSAGE value="Tomcat xml配置" />
@@ -620,7 +611,9 @@
     <MESSAGE value="JSP入门" />
     <MESSAGE value="EL表达式" />
     <MESSAGE value="JSTL标签" />
-    <option name="LAST_COMMIT_MESSAGE" value="JSTL标签" />
+    <MESSAGE value="浏览器对数据库进行增删改查案例" />
+    <MESSAGE value="修改readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
