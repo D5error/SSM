@@ -9,15 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73ded8c5-5a73-4395-aa36-ff0879e3c7b6" name="Changes" comment="Cookie">
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Cookie/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Cookie/src/main/java/com/d5error/web/CookieServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Cookie/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Cookie/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="73ded8c5-5a73-4395-aa36-ff0879e3c7b6" name="Changes" comment="Cookie简单使用">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb基础/src/main/Cookie/src/main/java/com/d5error/web/CookieServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb基础/src/main/Cookie/src/main/java/com/d5error/web/CookieServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -332,7 +326,7 @@
       <workItem from="1728814590414" duration="9945000" />
       <workItem from="1728960087930" duration="47000" />
       <workItem from="1728970339019" duration="1046000" />
-      <workItem from="1729001664930" duration="1211000" />
+      <workItem from="1729001664930" duration="2099000" />
     </task>
     <task id="LOCAL-00001" summary="jdbc入门">
       <option name="closed" value="true" />
@@ -590,7 +584,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728960123675</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Cookie简单使用">
+      <option name="closed" value="true" />
+      <created>1729003021203</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1729003021203</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -609,7 +611,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="SQL注入" />
     <MESSAGE value="Druid数据库连接池" />
     <MESSAGE value="增删改查练习" />
     <MESSAGE value="Maven" />
@@ -634,7 +635,8 @@
     <MESSAGE value="JSTL标签" />
     <MESSAGE value="浏览器对数据库进行增删改查案例" />
     <MESSAGE value="修改readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改readme" />
+    <MESSAGE value="Cookie简单使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cookie简单使用" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

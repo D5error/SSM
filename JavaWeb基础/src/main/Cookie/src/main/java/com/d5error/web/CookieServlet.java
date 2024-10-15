@@ -9,6 +9,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.net.URLDecoder;
+import java.net.URLEncoder;
 
 @WebServlet("/cookieServlet")
 public class CookieServlet extends HttpServlet {
@@ -17,10 +19,22 @@ public class CookieServlet extends HttpServlet {
         // 添加Cookie
         Cookie cookie = new Cookie("qq", "1247054343");
         resp.addCookie(cookie);
+        String name = "张三";
+        name = URLEncoder.encode(name, "utf-8");
+        resp.addCookie(new Cookie("name", name));
+
+        cookie.setMaxAge(10);
 
         // 获取Cookie
+        System.out.println("获取浏览器的cookie");
         Cookie[] userCookies = req.getCookies();
         for (Cookie userCookie : userCookies) {
+            if (userCookie.getName().equals("name")) {
+                String val = userCookie.getValue();
+                val = URLDecoder.decode(val, "utf-8");
+                System.out.println(userCookie.getName() + "=" + val);
+                continue;
+            }
             System.out.println(userCookie.getName() + "=" + userCookie.getValue());
         }
 
